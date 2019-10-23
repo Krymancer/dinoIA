@@ -1,6 +1,11 @@
 const spriteSheet = new Image();
 spriteSheet.src = "assets/images/sprites.png";
 
+spriteSheet.onload = () => {
+    createPopulation();
+    update();
+}
+
 import Horizon from "./Horizon.js"
 import Rex from "./Rex.js"
 import Cactus from "./Cactus.js"
@@ -176,6 +181,5 @@ function update() {
     requestAnimationFrame(update);
 }
 
-createPopulation();
-update();
-
+// createPopulation();
+// update();
