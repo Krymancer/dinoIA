@@ -1,5 +1,5 @@
 const spriteSheet = new Image();
-spriteSheet.src = "../assets/images/sprites.png";
+spriteSheet.src = "assets/images/sprites.png";
 
 import Horizon from "./Horizon.js"
 import Rex from "./Rex.js"
